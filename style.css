@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;  }
 }
 
  .container{
-    max-width: 1200px;
+    max-width: 600px;
     margin:  0  auto ;
     padding: 0 30;
     
@@ -22,15 +22,24 @@ font-family: 'Roboto', sans-serif;  }
  nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: right;
     height: 95px;
 }
 
 .navigation{
-    display: flex;
+ 
     margin-right: 200px;
+    padding-left: 60;
+    font-size: 15px;
 }
-.navigation li{
-    list-style: none;
-    margin: 10px;
+.navigation  li  {
+display: inline;
+    margin: 20px;
+    
 }
+.navigation li i {
+     
+        color:black;
+    }
+    
