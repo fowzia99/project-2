@@ -38,8 +38,31 @@ display: inline;
     margin: 20px;
     
 }
-.navigation li i {
+.navigation li a i {
      
         color:black;
     }
-    
+
+.container {
+     display: flex;
+     padding-left: 40 60;
+     margin-right: 100px;
+     border-right: 100px;
+     border-image-width: 20;
+    }
+    .div{
+       display: flexbox;
+       }
+       .half-width {
+        width: 60%;
+      }
+      
+      .half-width img {
+        
+        margin-left: 350px;
+        margin-bottom: 400px;
+      }
+      .container-second img {
+        width: 100px;
+      }
+        
